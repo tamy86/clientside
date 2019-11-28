@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.header
+{
+  display: relative;
+  background-color: #09d3ac;
+  margin: 0px auto;
+  width: 950px;
+  height: 50px;
+ 
+  
+
+}
+.content
+{
+  display: relative;
+  background-color: #282c34;
+  margin: 0px auto; 
+  width: 950px;
+  height: 500px;
+}
+.ordercontent{
+  display:none;
+  background-color: #a6afc2;
+  margin: 0px auto; 
+  width: 950px;
+  height: 500px;
+}
+.contactus{
+  display:none;
+  background-color: #6abd9a;
+  margin: 0px auto; 
+  width: 950px;
+  height: 500px;
+}
+.aboutus{
+  display:none;
+  background-color: #c2a6c2;
+  margin: 0px auto; 
+  width: 950px;
+  height: 500px;
+}
+.footer
+{
+  display: relative;
+  background-color: cadetblue;
+  margin: 0px auto;
+  width: 950px;
+  height: 60px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#09d3ac;
+  ;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.footertext{
+  margin: 0px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: beige;
+  direction: rtl;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+.title{
+  position: relative;
+  margin: 0px;
+  color: beige;
+  direction: rtl;
+}
